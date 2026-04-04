@@ -1,0 +1,1034 @@
+﻿Structure du dossier pour le volume Windows-SSD
+Le numÚro de sÚrie du volume est 407E-520B
+C:.
+ª   file.txt
+ª   global.json
+ª   SmartWallet.sln
+ª   SmartWallet.slnx
+ª   
++---src
+ª   +---SmartWallet.API
+ª   ª   ª   appsettings.Development.json
+ª   ª   ª   appsettings.json
+ª   ª   ª   Program.cs
+ª   ª   ª   SmartWallet.API.csproj
+ª   ª   ª   SmartWallet.API.http
+ª   ª   ª   
+ª   ª   +---bin
+ª   ª   ª   +---Debug
+ª   ª   ª       +---net8.0
+ª   ª   ª           ª   appsettings.Development.json
+ª   ª   ª           ª   appsettings.json
+ª   ª   ª           ª   EFCore.NamingConventions.dll
+ª   ª   ª           ª   FluentValidation.AspNetCore.dll
+ª   ª   ª           ª   FluentValidation.DependencyInjectionExtensions.dll
+ª   ª   ª           ª   FluentValidation.dll
+ª   ª   ª           ª   HealthChecks.NpgSql.dll
+ª   ª   ª           ª   MediatR.Contracts.dll
+ª   ª   ª           ª   MediatR.dll
+ª   ª   ª           ª   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+ª   ª   ª           ª   Microsoft.EntityFrameworkCore.Abstractions.dll
+ª   ª   ª           ª   Microsoft.EntityFrameworkCore.dll
+ª   ª   ª           ª   Microsoft.EntityFrameworkCore.Relational.dll
+ª   ª   ª           ª   Microsoft.Extensions.Configuration.Abstractions.dll
+ª   ª   ª           ª   Microsoft.Extensions.Configuration.Binder.dll
+ª   ª   ª           ª   Microsoft.Extensions.Configuration.dll
+ª   ª   ª           ª   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ª   ª   ª           ª   Microsoft.Extensions.DependencyInjection.dll
+ª   ª   ª           ª   Microsoft.Extensions.DependencyModel.dll
+ª   ª   ª           ª   Microsoft.Extensions.Diagnostics.Abstractions.dll
+ª   ª   ª           ª   Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+ª   ª   ª           ª   Microsoft.Extensions.Diagnostics.HealthChecks.dll
+ª   ª   ª           ª   Microsoft.Extensions.FileProviders.Abstractions.dll
+ª   ª   ª           ª   Microsoft.Extensions.Hosting.Abstractions.dll
+ª   ª   ª           ª   Microsoft.Extensions.Logging.Abstractions.dll
+ª   ª   ª           ª   Microsoft.Extensions.Logging.dll
+ª   ª   ª           ª   Microsoft.Extensions.Options.dll
+ª   ª   ª           ª   Microsoft.Extensions.Primitives.dll
+ª   ª   ª           ª   Microsoft.IdentityModel.Abstractions.dll
+ª   ª   ª           ª   Microsoft.IdentityModel.JsonWebTokens.dll
+ª   ª   ª           ª   Microsoft.IdentityModel.Logging.dll
+ª   ª   ª           ª   Microsoft.IdentityModel.Protocols.dll
+ª   ª   ª           ª   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+ª   ª   ª           ª   Microsoft.IdentityModel.Tokens.dll
+ª   ª   ª           ª   Microsoft.OpenApi.dll
+ª   ª   ª           ª   Npgsql.dll
+ª   ª   ª           ª   Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ª   ª   ª           ª   Serilog.AspNetCore.dll
+ª   ª   ª           ª   Serilog.dll
+ª   ª   ª           ª   Serilog.Extensions.Hosting.dll
+ª   ª   ª           ª   Serilog.Extensions.Logging.dll
+ª   ª   ª           ª   Serilog.Formatting.Compact.dll
+ª   ª   ª           ª   Serilog.Settings.Configuration.dll
+ª   ª   ª           ª   Serilog.Sinks.Console.dll
+ª   ª   ª           ª   Serilog.Sinks.Debug.dll
+ª   ª   ª           ª   Serilog.Sinks.File.dll
+ª   ª   ª           ª   SmartWallet.API.deps.json
+ª   ª   ª           ª   SmartWallet.API.dll
+ª   ª   ª           ª   SmartWallet.API.exe
+ª   ª   ª           ª   SmartWallet.API.pdb
+ª   ª   ª           ª   SmartWallet.API.runtimeconfig.json
+ª   ª   ª           ª   SmartWallet.Application.dll
+ª   ª   ª           ª   SmartWallet.Application.pdb
+ª   ª   ª           ª   SmartWallet.Domain.dll
+ª   ª   ª           ª   SmartWallet.Domain.pdb
+ª   ª   ª           ª   SmartWallet.Infrastructure.dll
+ª   ª   ª           ª   SmartWallet.Infrastructure.pdb
+ª   ª   ª           ª   Swashbuckle.AspNetCore.Swagger.dll
+ª   ª   ª           ª   Swashbuckle.AspNetCore.SwaggerGen.dll
+ª   ª   ª           ª   Swashbuckle.AspNetCore.SwaggerUI.dll
+ª   ª   ª           ª   System.Diagnostics.DiagnosticSource.dll
+ª   ª   ª           ª   System.IdentityModel.Tokens.Jwt.dll
+ª   ª   ª           ª   System.IO.Pipelines.dll
+ª   ª   ª           ª   System.Text.Encodings.Web.dll
+ª   ª   ª           ª   System.Text.Json.dll
+ª   ª   ª           ª   
+ª   ª   ª           +---runtimes
+ª   ª   ª               +---browser
+ª   ª   ª                   +---lib
+ª   ª   ª                       +---net8.0
+ª   ª   ª                               System.Text.Encodings.Web.dll
+ª   ª   ª                               
+ª   ª   +---Controllers
+ª   ª   +---DTOs
+ª   ª   +---Middleware
+ª   ª   +---obj
+ª   ª   ª   ª   project.assets.json
+ª   ª   ª   ª   project.nuget.cache
+ª   ª   ª   ª   SmartWallet.API.csproj.nuget.dgspec.json
+ª   ª   ª   ª   SmartWallet.API.csproj.nuget.g.props
+ª   ª   ª   ª   SmartWallet.API.csproj.nuget.g.targets
+ª   ª   ª   ª   
+ª   ª   ª   +---Debug
+ª   ª   ª       +---net10.0
+ª   ª   ª       ª   ª   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+ª   ª   ª       ª   ª   SmartWallet.API.AssemblyInfo.cs
+ª   ª   ª       ª   ª   SmartWallet.API.AssemblyInfoInputs.cache
+ª   ª   ª       ª   ª   SmartWallet.API.assets.cache
+ª   ª   ª       ª   ª   SmartWallet.API.csproj.AssemblyReference.cache
+ª   ª   ª       ª   ª   SmartWallet.API.GeneratedMSBuildEditorConfig.editorconfig
+ª   ª   ª       ª   ª   SmartWallet.API.GlobalUsings.g.cs
+ª   ª   ª       ª   ª   
+ª   ª   ª       ª   +---ref
+ª   ª   ª       ª   +---refint
+ª   ª   ª       +---net8.0
+ª   ª   ª           ª   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ª   ª   ª           ª   apphost.exe
+ª   ª   ª           ª   SmartWal.3ACB488F.Up2Date
+ª   ª   ª           ª   SmartWallet.API.AssemblyInfo.cs
+ª   ª   ª           ª   SmartWallet.API.AssemblyInfoInputs.cache
+ª   ª   ª           ª   SmartWallet.API.assets.cache
+ª   ª   ª           ª   SmartWallet.API.csproj.AssemblyReference.cache
+ª   ª   ª           ª   SmartWallet.API.csproj.CoreCompileInputs.cache
+ª   ª   ª           ª   SmartWallet.API.csproj.FileListAbsolute.txt
+ª   ª   ª           ª   SmartWallet.API.dll
+ª   ª   ª           ª   SmartWallet.API.GeneratedMSBuildEditorConfig.editorconfig
+ª   ª   ª           ª   SmartWallet.API.genruntimeconfig.cache
+ª   ª   ª           ª   SmartWallet.API.GlobalUsings.g.cs
+ª   ª   ª           ª   SmartWallet.API.MvcApplicationPartsAssemblyInfo.cache
+ª   ª   ª           ª   SmartWallet.API.MvcApplicationPartsAssemblyInfo.cs
+ª   ª   ª           ª   SmartWallet.API.pdb
+ª   ª   ª           ª   staticwebassets.build.json
+ª   ª   ª           ª   
+ª   ª   ª           +---ref
+ª   ª   ª           ª       SmartWallet.API.dll
+ª   ª   ª           ª       
+ª   ª   ª           +---refint
+ª   ª   ª           ª       SmartWallet.API.dll
+ª   ª   ª           ª       
+ª   ª   ª           +---staticwebassets
+ª   ª   ª                   msbuild.build.SmartWallet.API.props
+ª   ª   ª                   msbuild.buildMultiTargeting.SmartWallet.API.props
+ª   ª   ª                   msbuild.buildTransitive.SmartWallet.API.props
+ª   ª   ª                   
+ª   ª   +---Properties
+ª   ª   ª       launchSettings.json
+ª   ª   ª       
+ª   ª   +---Validators
+ª   +---SmartWallet.Application
+ª   ª   ª   SmartWallet.Application.csproj
+ª   ª   ª   
+ª   ª   +---Auth
+ª   ª   ª   +---Commands
+ª   ª   +---bin
+ª   ª   ª   +---Debug
+ª   ª   ª       +---net8.0
+ª   ª   ª               SmartWallet.Application.deps.json
+ª   ª   ª               SmartWallet.Application.dll
+ª   ª   ª               SmartWallet.Application.pdb
+ª   ª   ª               SmartWallet.Domain.dll
+ª   ª   ª               SmartWallet.Domain.pdb
+ª   ª   ª               
+ª   ª   +---Common
+ª   ª   +---Interfaces
+ª   ª   +---obj
+ª   ª   ª   ª   project.assets.json
+ª   ª   ª   ª   project.nuget.cache
+ª   ª   ª   ª   SmartWallet.Application.csproj.nuget.dgspec.json
+ª   ª   ª   ª   SmartWallet.Application.csproj.nuget.g.props
+ª   ª   ª   ª   SmartWallet.Application.csproj.nuget.g.targets
+ª   ª   ª   ª   
+ª   ª   ª   +---Debug
+ª   ª   ª       +---net10.0
+ª   ª   ª       ª   ª   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+ª   ª   ª       ª   ª   SmartWallet.Application.AssemblyInfo.cs
+ª   ª   ª       ª   ª   SmartWallet.Application.AssemblyInfoInputs.cache
+ª   ª   ª       ª   ª   SmartWallet.Application.assets.cache
+ª   ª   ª       ª   ª   SmartWallet.Application.csproj.AssemblyReference.cache
+ª   ª   ª       ª   ª   SmartWallet.Application.GeneratedMSBuildEditorConfig.editorconfig
+ª   ª   ª       ª   ª   SmartWallet.Application.GlobalUsings.g.cs
+ª   ª   ª       ª   ª   
+ª   ª   ª       ª   +---ref
+ª   ª   ª       ª   +---refint
+ª   ª   ª       +---net8.0
+ª   ª   ª           ª   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ª   ª   ª           ª   SmartWal.6CC3B0D1.Up2Date
+ª   ª   ª           ª   SmartWallet.Application.AssemblyInfo.cs
+ª   ª   ª           ª   SmartWallet.Application.AssemblyInfoInputs.cache
+ª   ª   ª           ª   SmartWallet.Application.assets.cache
+ª   ª   ª           ª   SmartWallet.Application.csproj.AssemblyReference.cache
+ª   ª   ª           ª   SmartWallet.Application.csproj.CoreCompileInputs.cache
+ª   ª   ª           ª   SmartWallet.Application.csproj.FileListAbsolute.txt
+ª   ª   ª           ª   SmartWallet.Application.dll
+ª   ª   ª           ª   SmartWallet.Application.GeneratedMSBuildEditorConfig.editorconfig
+ª   ª   ª           ª   SmartWallet.Application.GlobalUsings.g.cs
+ª   ª   ª           ª   SmartWallet.Application.pdb
+ª   ª   ª           ª   
+ª   ª   ª           +---ref
+ª   ª   ª           ª       SmartWallet.Application.dll
+ª   ª   ª           ª       
+ª   ª   ª           +---refint
+ª   ª   ª                   SmartWallet.Application.dll
+ª   ª   ª                   
+ª   ª   +---Transfers
+ª   ª   ª   +---Commands
+ª   ª   ª   +---Queries
+ª   ª   +---Wallets
+ª   ª       +---Commands
+ª   +---SmartWallet.Domain
+ª   ª   ª   SmartWallet.Domain.csproj
+ª   ª   ª   
+ª   ª   +---bin
+ª   ª   ª   +---Debug
+ª   ª   ª       +---net8.0
+ª   ª   ª               SmartWallet.Domain.deps.json
+ª   ª   ª               SmartWallet.Domain.dll
+ª   ª   ª               SmartWallet.Domain.pdb
+ª   ª   ª               
+ª   ª   +---Common
+ª   ª   +---Entities
+ª   ª   +---Events
+ª   ª   +---Exceptions
+ª   ª   +---obj
+ª   ª   ª   ª   project.assets.json
+ª   ª   ª   ª   project.nuget.cache
+ª   ª   ª   ª   SmartWallet.Domain.csproj.nuget.dgspec.json
+ª   ª   ª   ª   SmartWallet.Domain.csproj.nuget.g.props
+ª   ª   ª   ª   SmartWallet.Domain.csproj.nuget.g.targets
+ª   ª   ª   ª   
+ª   ª   ª   +---Debug
+ª   ª   ª       +---net10.0
+ª   ª   ª       ª   ª   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+ª   ª   ª       ª   ª   SmartWallet.Domain.AssemblyInfo.cs
+ª   ª   ª       ª   ª   SmartWallet.Domain.AssemblyInfoInputs.cache
+ª   ª   ª       ª   ª   SmartWallet.Domain.assets.cache
+ª   ª   ª       ª   ª   SmartWallet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+ª   ª   ª       ª   ª   SmartWallet.Domain.GlobalUsings.g.cs
+ª   ª   ª       ª   ª   
+ª   ª   ª       ª   +---ref
+ª   ª   ª       ª   +---refint
+ª   ª   ª       +---net8.0
+ª   ª   ª           ª   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ª   ª   ª           ª   SmartWallet.Domain.AssemblyInfo.cs
+ª   ª   ª           ª   SmartWallet.Domain.AssemblyInfoInputs.cache
+ª   ª   ª           ª   SmartWallet.Domain.assets.cache
+ª   ª   ª           ª   SmartWallet.Domain.csproj.CoreCompileInputs.cache
+ª   ª   ª           ª   SmartWallet.Domain.csproj.FileListAbsolute.txt
+ª   ª   ª           ª   SmartWallet.Domain.dll
+ª   ª   ª           ª   SmartWallet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+ª   ª   ª           ª   SmartWallet.Domain.GlobalUsings.g.cs
+ª   ª   ª           ª   SmartWallet.Domain.pdb
+ª   ª   ª           ª   
+ª   ª   ª           +---ref
+ª   ª   ª           ª       SmartWallet.Domain.dll
+ª   ª   ª           ª       
+ª   ª   ª           +---refint
+ª   ª   ª                   SmartWallet.Domain.dll
+ª   ª   ª                   
+ª   ª   +---ValueObjects
+ª   +---SmartWallet.Infrastructure
+ª       ª   SmartWallet.Infrastructure.csproj
+ª       ª   
+ª       +---Auth
+ª       +---bin
+ª       ª   +---Debug
+ª       ª       +---net8.0
+ª       ª               SmartWallet.Application.dll
+ª       ª               SmartWallet.Application.pdb
+ª       ª               SmartWallet.Domain.dll
+ª       ª               SmartWallet.Domain.pdb
+ª       ª               SmartWallet.Infrastructure.deps.json
+ª       ª               SmartWallet.Infrastructure.dll
+ª       ª               SmartWallet.Infrastructure.pdb
+ª       ª               SmartWallet.Infrastructure.runtimeconfig.json
+ª       ª               
+ª       +---obj
+ª       ª   ª   project.assets.json
+ª       ª   ª   project.nuget.cache
+ª       ª   ª   SmartWallet.Infrastructure.csproj.nuget.dgspec.json
+ª       ª   ª   SmartWallet.Infrastructure.csproj.nuget.g.props
+ª       ª   ª   SmartWallet.Infrastructure.csproj.nuget.g.targets
+ª       ª   ª   
+ª       ª   +---Debug
+ª       ª       +---net10.0
+ª       ª       ª   ª   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+ª       ª       ª   ª   SmartWallet.Infrastructure.AssemblyInfo.cs
+ª       ª       ª   ª   SmartWallet.Infrastructure.AssemblyInfoInputs.cache
+ª       ª       ª   ª   SmartWallet.Infrastructure.assets.cache
+ª       ª       ª   ª   SmartWallet.Infrastructure.csproj.AssemblyReference.cache
+ª       ª       ª   ª   SmartWallet.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+ª       ª       ª   ª   SmartWallet.Infrastructure.GlobalUsings.g.cs
+ª       ª       ª   ª   
+ª       ª       ª   +---ref
+ª       ª       ª   +---refint
+ª       ª       +---net8.0
+ª       ª           ª   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ª       ª           ª   SmartWal.38B662BE.Up2Date
+ª       ª           ª   SmartWallet.Infrastructure.AssemblyInfo.cs
+ª       ª           ª   SmartWallet.Infrastructure.AssemblyInfoInputs.cache
+ª       ª           ª   SmartWallet.Infrastructure.assets.cache
+ª       ª           ª   SmartWallet.Infrastructure.csproj.AssemblyReference.cache
+ª       ª           ª   SmartWallet.Infrastructure.csproj.CoreCompileInputs.cache
+ª       ª           ª   SmartWallet.Infrastructure.csproj.FileListAbsolute.txt
+ª       ª           ª   SmartWallet.Infrastructure.dll
+ª       ª           ª   SmartWallet.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+ª       ª           ª   SmartWallet.Infrastructure.genruntimeconfig.cache
+ª       ª           ª   SmartWallet.Infrastructure.GlobalUsings.g.cs
+ª       ª           ª   SmartWallet.Infrastructure.pdb
+ª       ª           ª   
+ª       ª           +---ref
+ª       ª           ª       SmartWallet.Infrastructure.dll
+ª       ª           ª       
+ª       ª           +---refint
+ª       ª                   SmartWallet.Infrastructure.dll
+ª       ª                   
+ª       +---Persistence
+ª           +---Configurations
+ª           +---Repositories
++---tests
+    +---SmartWallet.IntegrationTests
+    ª   ª   SmartWallet.IntegrationTests.csproj
+    ª   ª   
+    ª   +---bin
+    ª   ª   +---Debug
+    ª   ª       +---net8.0
+    ª   ª           ª   .msCoverageSourceRootsMapping_SmartWallet.IntegrationTests
+    ª   ª           ª   appsettings.Development.json
+    ª   ª           ª   appsettings.json
+    ª   ª           ª   BouncyCastle.Cryptography.dll
+    ª   ª           ª   CoverletSourceRootsMapping_SmartWallet.IntegrationTests
+    ª   ª           ª   Docker.DotNet.dll
+    ª   ª           ª   Docker.DotNet.X509.dll
+    ª   ª           ª   EFCore.NamingConventions.dll
+    ª   ª           ª   FluentValidation.AspNetCore.dll
+    ª   ª           ª   FluentValidation.DependencyInjectionExtensions.dll
+    ª   ª           ª   FluentValidation.dll
+    ª   ª           ª   HealthChecks.NpgSql.dll
+    ª   ª           ª   ICSharpCode.SharpZipLib.dll
+    ª   ª           ª   MediatR.Contracts.dll
+    ª   ª           ª   MediatR.dll
+    ª   ª           ª   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+    ª   ª           ª   Microsoft.AspNetCore.Mvc.Testing.dll
+    ª   ª           ª   Microsoft.AspNetCore.TestHost.dll
+    ª   ª           ª   Microsoft.EntityFrameworkCore.Abstractions.dll
+    ª   ª           ª   Microsoft.EntityFrameworkCore.dll
+    ª   ª           ª   Microsoft.EntityFrameworkCore.Relational.dll
+    ª   ª           ª   Microsoft.Extensions.Configuration.Abstractions.dll
+    ª   ª           ª   Microsoft.Extensions.Configuration.Binder.dll
+    ª   ª           ª   Microsoft.Extensions.Configuration.dll
+    ª   ª           ª   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+    ª   ª           ª   Microsoft.Extensions.DependencyInjection.dll
+    ª   ª           ª   Microsoft.Extensions.DependencyModel.dll
+    ª   ª           ª   Microsoft.Extensions.Diagnostics.Abstractions.dll
+    ª   ª           ª   Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+    ª   ª           ª   Microsoft.Extensions.Diagnostics.HealthChecks.dll
+    ª   ª           ª   Microsoft.Extensions.FileProviders.Abstractions.dll
+    ª   ª           ª   Microsoft.Extensions.Hosting.Abstractions.dll
+    ª   ª           ª   Microsoft.Extensions.Logging.Abstractions.dll
+    ª   ª           ª   Microsoft.Extensions.Logging.dll
+    ª   ª           ª   Microsoft.Extensions.Options.dll
+    ª   ª           ª   Microsoft.Extensions.Primitives.dll
+    ª   ª           ª   Microsoft.IdentityModel.Abstractions.dll
+    ª   ª           ª   Microsoft.IdentityModel.JsonWebTokens.dll
+    ª   ª           ª   Microsoft.IdentityModel.Logging.dll
+    ª   ª           ª   Microsoft.IdentityModel.Protocols.dll
+    ª   ª           ª   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+    ª   ª           ª   Microsoft.IdentityModel.Tokens.dll
+    ª   ª           ª   Microsoft.OpenApi.dll
+    ª   ª           ª   Microsoft.TestPlatform.CommunicationUtilities.dll
+    ª   ª           ª   Microsoft.TestPlatform.CoreUtilities.dll
+    ª   ª           ª   Microsoft.TestPlatform.CrossPlatEngine.dll
+    ª   ª           ª   Microsoft.TestPlatform.PlatformAbstractions.dll
+    ª   ª           ª   Microsoft.TestPlatform.Utilities.dll
+    ª   ª           ª   Microsoft.VisualStudio.CodeCoverage.Shim.dll
+    ª   ª           ª   Microsoft.VisualStudio.TestPlatform.Common.dll
+    ª   ª           ª   Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+    ª   ª           ª   MvcTestingAppManifest.json
+    ª   ª           ª   Newtonsoft.Json.dll
+    ª   ª           ª   Npgsql.dll
+    ª   ª           ª   Npgsql.EntityFrameworkCore.PostgreSQL.dll
+    ª   ª           ª   Renci.SshNet.dll
+    ª   ª           ª   Serilog.AspNetCore.dll
+    ª   ª           ª   Serilog.dll
+    ª   ª           ª   Serilog.Extensions.Hosting.dll
+    ª   ª           ª   Serilog.Extensions.Logging.dll
+    ª   ª           ª   Serilog.Formatting.Compact.dll
+    ª   ª           ª   Serilog.Settings.Configuration.dll
+    ª   ª           ª   Serilog.Sinks.Console.dll
+    ª   ª           ª   Serilog.Sinks.Debug.dll
+    ª   ª           ª   Serilog.Sinks.File.dll
+    ª   ª           ª   SmartWallet.API.deps.json
+    ª   ª           ª   SmartWallet.API.dll
+    ª   ª           ª   SmartWallet.API.exe
+    ª   ª           ª   SmartWallet.API.pdb
+    ª   ª           ª   SmartWallet.API.runtimeconfig.json
+    ª   ª           ª   SmartWallet.Application.deps.json
+    ª   ª           ª   SmartWallet.Application.dll
+    ª   ª           ª   SmartWallet.Application.pdb
+    ª   ª           ª   SmartWallet.Domain.deps.json
+    ª   ª           ª   SmartWallet.Domain.dll
+    ª   ª           ª   SmartWallet.Domain.pdb
+    ª   ª           ª   SmartWallet.Infrastructure.deps.json
+    ª   ª           ª   SmartWallet.Infrastructure.dll
+    ª   ª           ª   SmartWallet.Infrastructure.pdb
+    ª   ª           ª   SmartWallet.IntegrationTests.deps.json
+    ª   ª           ª   SmartWallet.IntegrationTests.dll
+    ª   ª           ª   SmartWallet.IntegrationTests.pdb
+    ª   ª           ª   SmartWallet.IntegrationTests.runtimeconfig.json
+    ª   ª           ª   Swashbuckle.AspNetCore.Swagger.dll
+    ª   ª           ª   Swashbuckle.AspNetCore.SwaggerGen.dll
+    ª   ª           ª   Swashbuckle.AspNetCore.SwaggerUI.dll
+    ª   ª           ª   System.Diagnostics.DiagnosticSource.dll
+    ª   ª           ª   System.IdentityModel.Tokens.Jwt.dll
+    ª   ª           ª   System.IO.Pipelines.dll
+    ª   ª           ª   System.Text.Encodings.Web.dll
+    ª   ª           ª   System.Text.Json.dll
+    ª   ª           ª   Testcontainers.dll
+    ª   ª           ª   Testcontainers.PostgreSql.dll
+    ª   ª           ª   testhost.dll
+    ª   ª           ª   testhost.exe
+    ª   ª           ª   xunit.abstractions.dll
+    ª   ª           ª   xunit.assert.dll
+    ª   ª           ª   xunit.core.dll
+    ª   ª           ª   xunit.execution.dotnet.dll
+    ª   ª           ª   xunit.runner.visualstudio.testadapter.dll
+    ª   ª           ª   
+    ª   ª           +---cs
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---de
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---es
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---fr
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---it
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---ja
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---ko
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---pl
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---pt-BR
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---refs
+    ª   ª           ª       Microsoft.AspNetCore.Antiforgery.dll
+    ª   ª           ª       Microsoft.AspNetCore.Authentication.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Authentication.BearerToken.dll
+    ª   ª           ª       Microsoft.AspNetCore.Authentication.Cookies.dll
+    ª   ª           ª       Microsoft.AspNetCore.Authentication.Core.dll
+    ª   ª           ª       Microsoft.AspNetCore.Authentication.dll
+    ª   ª           ª       Microsoft.AspNetCore.Authentication.OAuth.dll
+    ª   ª           ª       Microsoft.AspNetCore.Authorization.dll
+    ª   ª           ª       Microsoft.AspNetCore.Authorization.Policy.dll
+    ª   ª           ª       Microsoft.AspNetCore.Components.Authorization.dll
+    ª   ª           ª       Microsoft.AspNetCore.Components.dll
+    ª   ª           ª       Microsoft.AspNetCore.Components.Endpoints.dll
+    ª   ª           ª       Microsoft.AspNetCore.Components.Forms.dll
+    ª   ª           ª       Microsoft.AspNetCore.Components.Server.dll
+    ª   ª           ª       Microsoft.AspNetCore.Components.Web.dll
+    ª   ª           ª       Microsoft.AspNetCore.Connections.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.CookiePolicy.dll
+    ª   ª           ª       Microsoft.AspNetCore.Cors.dll
+    ª   ª           ª       Microsoft.AspNetCore.Cryptography.Internal.dll
+    ª   ª           ª       Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+    ª   ª           ª       Microsoft.AspNetCore.DataProtection.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.DataProtection.dll
+    ª   ª           ª       Microsoft.AspNetCore.DataProtection.Extensions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Diagnostics.dll
+    ª   ª           ª       Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+    ª   ª           ª       Microsoft.AspNetCore.dll
+    ª   ª           ª       Microsoft.AspNetCore.HostFiltering.dll
+    ª   ª           ª       Microsoft.AspNetCore.Hosting.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Hosting.dll
+    ª   ª           ª       Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Html.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Http.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Http.Connections.Common.dll
+    ª   ª           ª       Microsoft.AspNetCore.Http.Connections.dll
+    ª   ª           ª       Microsoft.AspNetCore.Http.dll
+    ª   ª           ª       Microsoft.AspNetCore.Http.Extensions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Http.Features.dll
+    ª   ª           ª       Microsoft.AspNetCore.Http.Results.dll
+    ª   ª           ª       Microsoft.AspNetCore.HttpLogging.dll
+    ª   ª           ª       Microsoft.AspNetCore.HttpOverrides.dll
+    ª   ª           ª       Microsoft.AspNetCore.HttpsPolicy.dll
+    ª   ª           ª       Microsoft.AspNetCore.Identity.dll
+    ª   ª           ª       Microsoft.AspNetCore.Localization.dll
+    ª   ª           ª       Microsoft.AspNetCore.Localization.Routing.dll
+    ª   ª           ª       Microsoft.AspNetCore.Metadata.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.Core.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.Cors.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.Localization.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.Razor.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.RazorPages.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.TagHelpers.dll
+    ª   ª           ª       Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+    ª   ª           ª       Microsoft.AspNetCore.OutputCaching.dll
+    ª   ª           ª       Microsoft.AspNetCore.RateLimiting.dll
+    ª   ª           ª       Microsoft.AspNetCore.Razor.dll
+    ª   ª           ª       Microsoft.AspNetCore.Razor.Runtime.dll
+    ª   ª           ª       Microsoft.AspNetCore.RequestDecompression.dll
+    ª   ª           ª       Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.ResponseCaching.dll
+    ª   ª           ª       Microsoft.AspNetCore.ResponseCompression.dll
+    ª   ª           ª       Microsoft.AspNetCore.Rewrite.dll
+    ª   ª           ª       Microsoft.AspNetCore.Routing.Abstractions.dll
+    ª   ª           ª       Microsoft.AspNetCore.Routing.dll
+    ª   ª           ª       Microsoft.AspNetCore.Server.HttpSys.dll
+    ª   ª           ª       Microsoft.AspNetCore.Server.IIS.dll
+    ª   ª           ª       Microsoft.AspNetCore.Server.IISIntegration.dll
+    ª   ª           ª       Microsoft.AspNetCore.Server.Kestrel.Core.dll
+    ª   ª           ª       Microsoft.AspNetCore.Server.Kestrel.dll
+    ª   ª           ª       Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
+    ª   ª           ª       Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+    ª   ª           ª       Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+    ª   ª           ª       Microsoft.AspNetCore.Session.dll
+    ª   ª           ª       Microsoft.AspNetCore.SignalR.Common.dll
+    ª   ª           ª       Microsoft.AspNetCore.SignalR.Core.dll
+    ª   ª           ª       Microsoft.AspNetCore.SignalR.dll
+    ª   ª           ª       Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+    ª   ª           ª       Microsoft.AspNetCore.StaticFiles.dll
+    ª   ª           ª       Microsoft.AspNetCore.WebSockets.dll
+    ª   ª           ª       Microsoft.AspNetCore.WebUtilities.dll
+    ª   ª           ª       Microsoft.CSharp.dll
+    ª   ª           ª       Microsoft.Extensions.Caching.Abstractions.dll
+    ª   ª           ª       Microsoft.Extensions.Caching.Memory.dll
+    ª   ª           ª       Microsoft.Extensions.Configuration.CommandLine.dll
+    ª   ª           ª       Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+    ª   ª           ª       Microsoft.Extensions.Configuration.FileExtensions.dll
+    ª   ª           ª       Microsoft.Extensions.Configuration.Ini.dll
+    ª   ª           ª       Microsoft.Extensions.Configuration.Json.dll
+    ª   ª           ª       Microsoft.Extensions.Configuration.KeyPerFile.dll
+    ª   ª           ª       Microsoft.Extensions.Configuration.UserSecrets.dll
+    ª   ª           ª       Microsoft.Extensions.Configuration.Xml.dll
+    ª   ª           ª       Microsoft.Extensions.Diagnostics.dll
+    ª   ª           ª       Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+    ª   ª           ª       Microsoft.Extensions.Diagnostics.HealthChecks.dll
+    ª   ª           ª       Microsoft.Extensions.Features.dll
+    ª   ª           ª       Microsoft.Extensions.FileProviders.Composite.dll
+    ª   ª           ª       Microsoft.Extensions.FileProviders.Embedded.dll
+    ª   ª           ª       Microsoft.Extensions.FileProviders.Physical.dll
+    ª   ª           ª       Microsoft.Extensions.FileSystemGlobbing.dll
+    ª   ª           ª       Microsoft.Extensions.Hosting.dll
+    ª   ª           ª       Microsoft.Extensions.Http.dll
+    ª   ª           ª       Microsoft.Extensions.Identity.Core.dll
+    ª   ª           ª       Microsoft.Extensions.Identity.Stores.dll
+    ª   ª           ª       Microsoft.Extensions.Localization.Abstractions.dll
+    ª   ª           ª       Microsoft.Extensions.Localization.dll
+    ª   ª           ª       Microsoft.Extensions.Logging.Configuration.dll
+    ª   ª           ª       Microsoft.Extensions.Logging.Console.dll
+    ª   ª           ª       Microsoft.Extensions.Logging.Debug.dll
+    ª   ª           ª       Microsoft.Extensions.Logging.EventLog.dll
+    ª   ª           ª       Microsoft.Extensions.Logging.EventSource.dll
+    ª   ª           ª       Microsoft.Extensions.Logging.TraceSource.dll
+    ª   ª           ª       Microsoft.Extensions.ObjectPool.dll
+    ª   ª           ª       Microsoft.Extensions.Options.ConfigurationExtensions.dll
+    ª   ª           ª       Microsoft.Extensions.Options.DataAnnotations.dll
+    ª   ª           ª       Microsoft.Extensions.WebEncoders.dll
+    ª   ª           ª       Microsoft.JSInterop.dll
+    ª   ª           ª       Microsoft.Net.Http.Headers.dll
+    ª   ª           ª       Microsoft.VisualBasic.Core.dll
+    ª   ª           ª       Microsoft.VisualBasic.dll
+    ª   ª           ª       Microsoft.Win32.Primitives.dll
+    ª   ª           ª       Microsoft.Win32.Registry.dll
+    ª   ª           ª       mscorlib.dll
+    ª   ª           ª       netstandard.dll
+    ª   ª           ª       System.AppContext.dll
+    ª   ª           ª       System.Buffers.dll
+    ª   ª           ª       System.Collections.Concurrent.dll
+    ª   ª           ª       System.Collections.dll
+    ª   ª           ª       System.Collections.Immutable.dll
+    ª   ª           ª       System.Collections.NonGeneric.dll
+    ª   ª           ª       System.Collections.Specialized.dll
+    ª   ª           ª       System.ComponentModel.Annotations.dll
+    ª   ª           ª       System.ComponentModel.DataAnnotations.dll
+    ª   ª           ª       System.ComponentModel.dll
+    ª   ª           ª       System.ComponentModel.EventBasedAsync.dll
+    ª   ª           ª       System.ComponentModel.Primitives.dll
+    ª   ª           ª       System.ComponentModel.TypeConverter.dll
+    ª   ª           ª       System.Configuration.dll
+    ª   ª           ª       System.Console.dll
+    ª   ª           ª       System.Core.dll
+    ª   ª           ª       System.Data.Common.dll
+    ª   ª           ª       System.Data.DataSetExtensions.dll
+    ª   ª           ª       System.Data.dll
+    ª   ª           ª       System.Diagnostics.Contracts.dll
+    ª   ª           ª       System.Diagnostics.Debug.dll
+    ª   ª           ª       System.Diagnostics.EventLog.dll
+    ª   ª           ª       System.Diagnostics.FileVersionInfo.dll
+    ª   ª           ª       System.Diagnostics.Process.dll
+    ª   ª           ª       System.Diagnostics.StackTrace.dll
+    ª   ª           ª       System.Diagnostics.TextWriterTraceListener.dll
+    ª   ª           ª       System.Diagnostics.Tools.dll
+    ª   ª           ª       System.Diagnostics.TraceSource.dll
+    ª   ª           ª       System.Diagnostics.Tracing.dll
+    ª   ª           ª       System.dll
+    ª   ª           ª       System.Drawing.dll
+    ª   ª           ª       System.Drawing.Primitives.dll
+    ª   ª           ª       System.Dynamic.Runtime.dll
+    ª   ª           ª       System.Formats.Asn1.dll
+    ª   ª           ª       System.Formats.Tar.dll
+    ª   ª           ª       System.Globalization.Calendars.dll
+    ª   ª           ª       System.Globalization.dll
+    ª   ª           ª       System.Globalization.Extensions.dll
+    ª   ª           ª       System.IO.Compression.Brotli.dll
+    ª   ª           ª       System.IO.Compression.dll
+    ª   ª           ª       System.IO.Compression.FileSystem.dll
+    ª   ª           ª       System.IO.Compression.ZipFile.dll
+    ª   ª           ª       System.IO.dll
+    ª   ª           ª       System.IO.FileSystem.AccessControl.dll
+    ª   ª           ª       System.IO.FileSystem.dll
+    ª   ª           ª       System.IO.FileSystem.DriveInfo.dll
+    ª   ª           ª       System.IO.FileSystem.Primitives.dll
+    ª   ª           ª       System.IO.FileSystem.Watcher.dll
+    ª   ª           ª       System.IO.IsolatedStorage.dll
+    ª   ª           ª       System.IO.MemoryMappedFiles.dll
+    ª   ª           ª       System.IO.Pipes.AccessControl.dll
+    ª   ª           ª       System.IO.Pipes.dll
+    ª   ª           ª       System.IO.UnmanagedMemoryStream.dll
+    ª   ª           ª       System.Linq.dll
+    ª   ª           ª       System.Linq.Expressions.dll
+    ª   ª           ª       System.Linq.Parallel.dll
+    ª   ª           ª       System.Linq.Queryable.dll
+    ª   ª           ª       System.Memory.dll
+    ª   ª           ª       System.Net.dll
+    ª   ª           ª       System.Net.Http.dll
+    ª   ª           ª       System.Net.Http.Json.dll
+    ª   ª           ª       System.Net.HttpListener.dll
+    ª   ª           ª       System.Net.Mail.dll
+    ª   ª           ª       System.Net.NameResolution.dll
+    ª   ª           ª       System.Net.NetworkInformation.dll
+    ª   ª           ª       System.Net.Ping.dll
+    ª   ª           ª       System.Net.Primitives.dll
+    ª   ª           ª       System.Net.Quic.dll
+    ª   ª           ª       System.Net.Requests.dll
+    ª   ª           ª       System.Net.Security.dll
+    ª   ª           ª       System.Net.ServicePoint.dll
+    ª   ª           ª       System.Net.Sockets.dll
+    ª   ª           ª       System.Net.WebClient.dll
+    ª   ª           ª       System.Net.WebHeaderCollection.dll
+    ª   ª           ª       System.Net.WebProxy.dll
+    ª   ª           ª       System.Net.WebSockets.Client.dll
+    ª   ª           ª       System.Net.WebSockets.dll
+    ª   ª           ª       System.Numerics.dll
+    ª   ª           ª       System.Numerics.Vectors.dll
+    ª   ª           ª       System.ObjectModel.dll
+    ª   ª           ª       System.Reflection.DispatchProxy.dll
+    ª   ª           ª       System.Reflection.dll
+    ª   ª           ª       System.Reflection.Emit.dll
+    ª   ª           ª       System.Reflection.Emit.ILGeneration.dll
+    ª   ª           ª       System.Reflection.Emit.Lightweight.dll
+    ª   ª           ª       System.Reflection.Extensions.dll
+    ª   ª           ª       System.Reflection.Metadata.dll
+    ª   ª           ª       System.Reflection.Primitives.dll
+    ª   ª           ª       System.Reflection.TypeExtensions.dll
+    ª   ª           ª       System.Resources.Reader.dll
+    ª   ª           ª       System.Resources.ResourceManager.dll
+    ª   ª           ª       System.Resources.Writer.dll
+    ª   ª           ª       System.Runtime.CompilerServices.Unsafe.dll
+    ª   ª           ª       System.Runtime.CompilerServices.VisualC.dll
+    ª   ª           ª       System.Runtime.dll
+    ª   ª           ª       System.Runtime.Extensions.dll
+    ª   ª           ª       System.Runtime.Handles.dll
+    ª   ª           ª       System.Runtime.InteropServices.dll
+    ª   ª           ª       System.Runtime.InteropServices.JavaScript.dll
+    ª   ª           ª       System.Runtime.InteropServices.RuntimeInformation.dll
+    ª   ª           ª       System.Runtime.Intrinsics.dll
+    ª   ª           ª       System.Runtime.Loader.dll
+    ª   ª           ª       System.Runtime.Numerics.dll
+    ª   ª           ª       System.Runtime.Serialization.dll
+    ª   ª           ª       System.Runtime.Serialization.Formatters.dll
+    ª   ª           ª       System.Runtime.Serialization.Json.dll
+    ª   ª           ª       System.Runtime.Serialization.Primitives.dll
+    ª   ª           ª       System.Runtime.Serialization.Xml.dll
+    ª   ª           ª       System.Security.AccessControl.dll
+    ª   ª           ª       System.Security.Claims.dll
+    ª   ª           ª       System.Security.Cryptography.Algorithms.dll
+    ª   ª           ª       System.Security.Cryptography.Cng.dll
+    ª   ª           ª       System.Security.Cryptography.Csp.dll
+    ª   ª           ª       System.Security.Cryptography.dll
+    ª   ª           ª       System.Security.Cryptography.Encoding.dll
+    ª   ª           ª       System.Security.Cryptography.OpenSsl.dll
+    ª   ª           ª       System.Security.Cryptography.Primitives.dll
+    ª   ª           ª       System.Security.Cryptography.X509Certificates.dll
+    ª   ª           ª       System.Security.Cryptography.Xml.dll
+    ª   ª           ª       System.Security.dll
+    ª   ª           ª       System.Security.Principal.dll
+    ª   ª           ª       System.Security.Principal.Windows.dll
+    ª   ª           ª       System.Security.SecureString.dll
+    ª   ª           ª       System.ServiceModel.Web.dll
+    ª   ª           ª       System.ServiceProcess.dll
+    ª   ª           ª       System.Text.Encoding.CodePages.dll
+    ª   ª           ª       System.Text.Encoding.dll
+    ª   ª           ª       System.Text.Encoding.Extensions.dll
+    ª   ª           ª       System.Text.RegularExpressions.dll
+    ª   ª           ª       System.Threading.Channels.dll
+    ª   ª           ª       System.Threading.dll
+    ª   ª           ª       System.Threading.Overlapped.dll
+    ª   ª           ª       System.Threading.RateLimiting.dll
+    ª   ª           ª       System.Threading.Tasks.Dataflow.dll
+    ª   ª           ª       System.Threading.Tasks.dll
+    ª   ª           ª       System.Threading.Tasks.Extensions.dll
+    ª   ª           ª       System.Threading.Tasks.Parallel.dll
+    ª   ª           ª       System.Threading.Thread.dll
+    ª   ª           ª       System.Threading.ThreadPool.dll
+    ª   ª           ª       System.Threading.Timer.dll
+    ª   ª           ª       System.Transactions.dll
+    ª   ª           ª       System.Transactions.Local.dll
+    ª   ª           ª       System.ValueTuple.dll
+    ª   ª           ª       System.Web.dll
+    ª   ª           ª       System.Web.HttpUtility.dll
+    ª   ª           ª       System.Windows.dll
+    ª   ª           ª       System.Xml.dll
+    ª   ª           ª       System.Xml.Linq.dll
+    ª   ª           ª       System.Xml.ReaderWriter.dll
+    ª   ª           ª       System.Xml.Serialization.dll
+    ª   ª           ª       System.Xml.XDocument.dll
+    ª   ª           ª       System.Xml.XmlDocument.dll
+    ª   ª           ª       System.Xml.XmlSerializer.dll
+    ª   ª           ª       System.Xml.XPath.dll
+    ª   ª           ª       System.Xml.XPath.XDocument.dll
+    ª   ª           ª       WindowsBase.dll
+    ª   ª           ª       
+    ª   ª           +---ru
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---runtimes
+    ª   ª           ª   +---browser
+    ª   ª           ª       +---lib
+    ª   ª           ª           +---net8.0
+    ª   ª           ª                   System.Text.Encodings.Web.dll
+    ª   ª           ª                   
+    ª   ª           +---tr
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---zh-Hans
+    ª   ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª           ª       
+    ª   ª           +---zh-Hant
+    ª   ª                   Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+    ª   ª                   Microsoft.TestPlatform.CoreUtilities.resources.dll
+    ª   ª                   Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+    ª   ª                   Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+    ª   ª                   Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+    ª   ª                   
+    ª   +---obj
+    ª       ª   project.assets.json
+    ª       ª   project.nuget.cache
+    ª       ª   SmartWallet.IntegrationTests.csproj.nuget.dgspec.json
+    ª       ª   SmartWallet.IntegrationTests.csproj.nuget.g.props
+    ª       ª   SmartWallet.IntegrationTests.csproj.nuget.g.targets
+    ª       ª   
+    ª       +---Debug
+    ª           +---net10.0
+    ª           ª   ª   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+    ª           ª   ª   SmartWallet.IntegrationTests.AssemblyInfo.cs
+    ª           ª   ª   SmartWallet.IntegrationTests.AssemblyInfoInputs.cache
+    ª           ª   ª   SmartWallet.IntegrationTests.assets.cache
+    ª           ª   ª   SmartWallet.IntegrationTests.csproj.AssemblyReference.cache
+    ª           ª   ª   SmartWallet.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+    ª           ª   ª   SmartWallet.IntegrationTests.GlobalUsings.g.cs
+    ª           ª   ª   
+    ª           ª   +---ref
+    ª           ª   +---refint
+    ª           +---net8.0
+    ª               ª   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    ª               ª   MvcTestingAppManifest.json
+    ª               ª   SmartWal.4D7FC11F.Up2Date
+    ª               ª   SmartWallet.IntegrationTests.AssemblyInfo.cs
+    ª               ª   SmartWallet.IntegrationTests.AssemblyInfoInputs.cache
+    ª               ª   SmartWallet.IntegrationTests.assets.cache
+    ª               ª   SmartWallet.IntegrationTests.csproj.AssemblyReference.cache
+    ª               ª   SmartWallet.IntegrationTests.csproj.CoreCompileInputs.cache
+    ª               ª   SmartWallet.IntegrationTests.csproj.FileListAbsolute.txt
+    ª               ª   SmartWallet.IntegrationTests.dll
+    ª               ª   SmartWallet.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+    ª               ª   SmartWallet.IntegrationTests.genruntimeconfig.cache
+    ª               ª   SmartWallet.IntegrationTests.GlobalUsings.g.cs
+    ª               ª   SmartWallet.IntegrationTests.pdb
+    ª               ª   
+    ª               +---ref
+    ª               ª       SmartWallet.IntegrationTests.dll
+    ª               ª       
+    ª               +---refint
+    ª                       SmartWallet.IntegrationTests.dll
+    ª                       
+    +---SmartWallet.UnitTests
+        ª   SmartWallet.UnitTests.csproj
+        ª   
+        +---bin
+        ª   +---Debug
+        ª       +---net8.0
+        ª           ª   .msCoverageSourceRootsMapping_SmartWallet.UnitTests
+        ª           ª   Castle.Core.dll
+        ª           ª   CoverletSourceRootsMapping_SmartWallet.UnitTests
+        ª           ª   FluentAssertions.dll
+        ª           ª   MediatR.Contracts.dll
+        ª           ª   MediatR.dll
+        ª           ª   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+        ª           ª   Microsoft.Extensions.Logging.Abstractions.dll
+        ª           ª   Microsoft.IdentityModel.Abstractions.dll
+        ª           ª   Microsoft.IdentityModel.JsonWebTokens.dll
+        ª           ª   Microsoft.IdentityModel.Logging.dll
+        ª           ª   Microsoft.IdentityModel.Tokens.dll
+        ª           ª   Microsoft.TestPlatform.CommunicationUtilities.dll
+        ª           ª   Microsoft.TestPlatform.CoreUtilities.dll
+        ª           ª   Microsoft.TestPlatform.CrossPlatEngine.dll
+        ª           ª   Microsoft.TestPlatform.PlatformAbstractions.dll
+        ª           ª   Microsoft.TestPlatform.Utilities.dll
+        ª           ª   Microsoft.VisualStudio.CodeCoverage.Shim.dll
+        ª           ª   Microsoft.VisualStudio.TestPlatform.Common.dll
+        ª           ª   Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+        ª           ª   Moq.dll
+        ª           ª   Newtonsoft.Json.dll
+        ª           ª   SmartWallet.Application.dll
+        ª           ª   SmartWallet.Application.pdb
+        ª           ª   SmartWallet.Domain.dll
+        ª           ª   SmartWallet.Domain.pdb
+        ª           ª   SmartWallet.UnitTests.deps.json
+        ª           ª   SmartWallet.UnitTests.dll
+        ª           ª   SmartWallet.UnitTests.pdb
+        ª           ª   SmartWallet.UnitTests.runtimeconfig.json
+        ª           ª   System.Diagnostics.DiagnosticSource.dll
+        ª           ª   System.Diagnostics.EventLog.dll
+        ª           ª   testhost.dll
+        ª           ª   testhost.exe
+        ª           ª   xunit.abstractions.dll
+        ª           ª   xunit.assert.dll
+        ª           ª   xunit.core.dll
+        ª           ª   xunit.execution.dotnet.dll
+        ª           ª   xunit.runner.visualstudio.testadapter.dll
+        ª           ª   
+        ª           +---cs
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---de
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---es
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---fr
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---it
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---ja
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---ko
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---pl
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---pt-BR
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---ru
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---runtimes
+        ª           ª   +---win
+        ª           ª       +---lib
+        ª           ª           +---net6.0
+        ª           ª                   System.Diagnostics.EventLog.dll
+        ª           ª                   System.Diagnostics.EventLog.Messages.dll
+        ª           ª                   
+        ª           +---tr
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---zh-Hans
+        ª           ª       Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª           ª       Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª           ª       Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª           ª       
+        ª           +---zh-Hant
+        ª                   Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+        ª                   Microsoft.TestPlatform.CoreUtilities.resources.dll
+        ª                   Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+        ª                   Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+        ª                   Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+        ª                   
+        +---obj
+            ª   project.assets.json
+            ª   project.nuget.cache
+            ª   SmartWallet.UnitTests.csproj.nuget.dgspec.json
+            ª   SmartWallet.UnitTests.csproj.nuget.g.props
+            ª   SmartWallet.UnitTests.csproj.nuget.g.targets
+            ª   
+            +---Debug
+                +---net10.0
+                ª   ª   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+                ª   ª   SmartWallet.UnitTests.AssemblyInfo.cs
+                ª   ª   SmartWallet.UnitTests.AssemblyInfoInputs.cache
+                ª   ª   SmartWallet.UnitTests.assets.cache
+                ª   ª   SmartWallet.UnitTests.csproj.AssemblyReference.cache
+                ª   ª   SmartWallet.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+                ª   ª   SmartWallet.UnitTests.GlobalUsings.g.cs
+                ª   ª   
+                ª   +---ref
+                ª   +---refint
+                +---net8.0
+                    ª   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+                    ª   SmartWal.7480214A.Up2Date
+                    ª   SmartWallet.UnitTests.AssemblyInfo.cs
+                    ª   SmartWallet.UnitTests.AssemblyInfoInputs.cache
+                    ª   SmartWallet.UnitTests.assets.cache
+                    ª   SmartWallet.UnitTests.csproj.AssemblyReference.cache
+                    ª   SmartWallet.UnitTests.csproj.CoreCompileInputs.cache
+                    ª   SmartWallet.UnitTests.csproj.FileListAbsolute.txt
+                    ª   SmartWallet.UnitTests.dll
+                    ª   SmartWallet.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+                    ª   SmartWallet.UnitTests.genruntimeconfig.cache
+                    ª   SmartWallet.UnitTests.GlobalUsings.g.cs
+                    ª   SmartWallet.UnitTests.pdb
+                    ª   
+                    +---ref
+                    ª       SmartWallet.UnitTests.dll
+                    ª       
+                    +---refint
+                            SmartWallet.UnitTests.dll
+                            

@@ -1,0 +1,15 @@
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\bin\Debug\net8.0\SmartWallet.Application.deps.json
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\bin\Debug\net8.0\SmartWallet.Application.dll
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\bin\Debug\net8.0\SmartWallet.Application.pdb
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\bin\Debug\net8.0\SmartWallet.Domain.dll
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\bin\Debug\net8.0\SmartWallet.Domain.pdb
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.csproj.AssemblyReference.cache
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.AssemblyInfoInputs.cache
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.AssemblyInfo.cs
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.csproj.CoreCompileInputs.cache
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWal.6CC3B0D1.Up2Date
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.dll
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\refint\SmartWallet.Application.dll
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.pdb
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\ref\SmartWallet.Application.dll
