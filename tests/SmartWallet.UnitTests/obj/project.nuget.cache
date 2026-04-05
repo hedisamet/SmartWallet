@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g07WiSzU1bg=",
+  "dgSpecHash": "6oLfTPppJIY=",
   "success": true,
   "projectFilePath": "C:\\Users\\hedis\\Desktop\\Personal\\SmartWallet\\tests\\SmartWallet.UnitTests\\SmartWallet.UnitTests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hedis\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\fluentassertions\\8.9.0\\fluentassertions.8.9.0.nupkg.sha512",

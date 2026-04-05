@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FzksqfmWWJY=",
+  "dgSpecHash": "4eKJS3hmxOM=",
   "success": true,
   "projectFilePath": "C:\\Users\\hedis\\Desktop\\Personal\\SmartWallet\\src\\SmartWallet.API\\SmartWallet.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hedis\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\9.0.0\\aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
+    "C:\\Users\\hedis\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\efcore.namingconventions\\8.0.3\\efcore.namingconventions.8.0.3.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",

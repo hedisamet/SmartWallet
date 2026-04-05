@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "po/d9cyRVBM=",
+  "dgSpecHash": "pbm++zbH7R8=",
   "success": true,
   "projectFilePath": "C:\\Users\\hedis\\Desktop\\Personal\\SmartWallet\\src\\SmartWallet.Application\\SmartWallet.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hedis\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\mediatr\\14.1.0\\mediatr.14.1.0.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",

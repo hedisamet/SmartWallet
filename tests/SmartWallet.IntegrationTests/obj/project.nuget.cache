@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XD5JAlRnEpc=",
+  "dgSpecHash": "TRq0BlSvMO8=",
   "success": true,
   "projectFilePath": "C:\\Users\\hedis\\Desktop\\Personal\\SmartWallet\\tests\\SmartWallet.IntegrationTests\\SmartWallet.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hedis\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\9.0.0\\aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
+    "C:\\Users\\hedis\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\hedis\\.nuget\\packages\\docker.dotnet.enhanced\\3.131.1\\docker.dotnet.enhanced.3.131.1.nupkg.sha512",

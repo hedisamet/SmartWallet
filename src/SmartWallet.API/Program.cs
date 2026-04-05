@@ -8,7 +8,8 @@ using SmartWallet.Application.Interfaces;
 using SmartWallet.Application.Transfers.Commands;
 using SmartWallet.Infrastructure.Persistence;
 using SmartWallet.Infrastructure.Persistence.Repositories;
-
+using SmartWallet.Infrastructure.Auth;
+using SmartWallet.Infrastructure.Persistence.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 // ----------------------------------------------------------
@@ -26,6 +27,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<IWalletRepository,      WalletRepository>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<IUnitOfWork,            UnitOfWork>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IJwtService,     JwtService>();
 
 // ----------------------------------------------------------
 // Current user
