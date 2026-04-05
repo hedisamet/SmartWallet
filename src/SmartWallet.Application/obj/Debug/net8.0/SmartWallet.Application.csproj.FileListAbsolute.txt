@@ -13,3 +13,4 @@ C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debu
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\refint\SmartWallet.Application.dll
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.pdb
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\ref\SmartWallet.Application.dll
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Application\obj\Debug\net8.0\SmartWallet.Application.sourcelink.json

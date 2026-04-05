@@ -9,3 +9,4 @@ C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Domain\obj\Debug\net
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Domain\obj\Debug\net8.0\refint\SmartWallet.Domain.dll
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Domain\obj\Debug\net8.0\SmartWallet.Domain.pdb
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Domain\obj\Debug\net8.0\ref\SmartWallet.Domain.dll
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Domain\obj\Debug\net8.0\SmartWallet.Domain.sourcelink.json

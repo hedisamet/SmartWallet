@@ -17,3 +17,4 @@ C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Infrastructure\obj\D
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Infrastructure\obj\Debug\net8.0\SmartWallet.Infrastructure.pdb
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Infrastructure\obj\Debug\net8.0\SmartWallet.Infrastructure.genruntimeconfig.cache
 C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Infrastructure\obj\Debug\net8.0\ref\SmartWallet.Infrastructure.dll
+C:\Users\hedis\Desktop\Personal\SmartWallet\src\SmartWallet.Infrastructure\obj\Debug\net8.0\SmartWallet.Infrastructure.sourcelink.json

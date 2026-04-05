@@ -115,3 +115,4 @@ C:\Users\hedis\Desktop\Personal\SmartWallet\tests\SmartWallet.UnitTests\obj\Debu
 C:\Users\hedis\Desktop\Personal\SmartWallet\tests\SmartWallet.UnitTests\obj\Debug\net8.0\SmartWallet.UnitTests.pdb
 C:\Users\hedis\Desktop\Personal\SmartWallet\tests\SmartWallet.UnitTests\obj\Debug\net8.0\SmartWallet.UnitTests.genruntimeconfig.cache
 C:\Users\hedis\Desktop\Personal\SmartWallet\tests\SmartWallet.UnitTests\obj\Debug\net8.0\ref\SmartWallet.UnitTests.dll
+C:\Users\hedis\Desktop\Personal\SmartWallet\tests\SmartWallet.UnitTests\obj\Debug\net8.0\SmartWallet.UnitTests.sourcelink.json
