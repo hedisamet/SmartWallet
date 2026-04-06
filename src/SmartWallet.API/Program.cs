@@ -126,6 +126,19 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
+
+    // Seed admin user if none exists
+    var userRepo = scope.ServiceProvider.GetRequiredService<IUserRepository>();
+    var uow      = scope.ServiceProvider.GetRequiredService<IUnitOfWork>();
+
+    if (!userRepo.ExistsByEmail("admin@smartwallet.com"))
+    {
+        var adminHash = BCrypt.Net.BCrypt.HashPassword("Admin1234!", workFactor: 12);
+        var admin     = SmartWallet.Domain.Entities.User.CreateAdmin(
+            "admin@smartwallet.com", adminHash, "System Admin");
+        await userRepo.AddAsync(admin, CancellationToken.None);
+        await uow.SaveChangesAsync(CancellationToken.None);
+    }
 }
 
 app.Run();
