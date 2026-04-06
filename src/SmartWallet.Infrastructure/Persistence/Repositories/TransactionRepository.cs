@@ -27,5 +27,9 @@ public class TransactionRepository : ITransactionRepository
         => await _context.Transactions.AddAsync(transaction, ct);
 
     public void Update(Transaction transaction)
-        => _context.Transactions.Update(transaction);
+    {
+        var entry = _context.Entry(transaction);
+        if (entry.State == Microsoft.EntityFrameworkCore.EntityState.Detached)
+            _context.Transactions.Update(transaction);
+    }
 }

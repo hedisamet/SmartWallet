@@ -45,7 +45,7 @@ public class TransferCommandHandler
         TransferCommand   command,
         CancellationToken ct)
     {
-        // STEP 1 — idempotency check before anything else
+        // STEP 1 — idempotency check
         var existing = await _transactionRepo
             .FindByIdempotencyKeyAsync(command.IdempotencyKey, ct);
 
@@ -60,52 +60,61 @@ public class TransferCommandHandler
             ));
         }
 
-        // STEP 2 — load wallets
-        var senderWallet = await _walletRepo.GetByUserIdAsync(command.SenderId, ct);
-        if (senderWallet is null)
-            return Result<TransferResponse>.Failure("Sender wallet not found.");
-
-        var receiverWallet = await _walletRepo.GetByIdAsync(command.ReceiverWalletId, ct);
-        if (receiverWallet is null)
-            return Result<TransferResponse>.Failure("Receiver wallet not found.");
-
-        // STEP 3 — no self-transfer
-        if (senderWallet.Id == receiverWallet.Id)
-            return Result<TransferResponse>.Failure("Cannot transfer to the same wallet.");
-
-        // STEP 4 — build domain objects
-        var currency = Currency.From(command.Currency);
-        var money    = Money.Of(command.Amount, currency);
-
-        // STEP 5 — record intent as PENDING before acquiring locks
-        var transaction = Transaction.Create(
-            idempotencyKey   : command.IdempotencyKey,
-            senderWalletId   : senderWallet.Id,
-            receiverWalletId : receiverWallet.Id,
-            amount           : money.Value,
-            currency         : currency.Code,
-            type             : TransactionType.Transfer,
-            description      : command.Description
-        );
-
-        await _transactionRepo.AddAsync(transaction, ct);
-
-        // STEP 6 — atomic scope
+        // STEP 2 — begin transaction FIRST, then load with locks
         try
         {
             await _unitOfWork.BeginTransactionAsync(ct);
 
-            // Re-fetch with row-level lock — prevents concurrent balance reads
-            var lockedSender   = await _walletRepo.GetByIdWithLockAsync(senderWallet.Id, ct);
-            var lockedReceiver  = await _walletRepo.GetByIdWithLockAsync(receiverWallet.Id, ct);
+            var senderWallet = await _walletRepo
+                .GetByUserIdWithLockAsync(command.SenderId, ct);
 
-            lockedSender!.Debit(money);
-            lockedReceiver!.Credit(money);
+            if (senderWallet is null)
+            {
+                await _unitOfWork.RollbackAsync(ct);
+                return Result<TransferResponse>.Failure("Sender wallet not found.");
+            }
+
+            var receiverWallet = await _walletRepo
+                .GetByIdWithLockAsync(command.ReceiverWalletId, ct);
+
+            if (receiverWallet is null)
+            {
+                await _unitOfWork.RollbackAsync(ct);
+                return Result<TransferResponse>.Failure("Receiver wallet not found.");
+            }
+
+            // STEP 3 — no self-transfer
+            if (senderWallet.Id == receiverWallet.Id)
+            {
+                await _unitOfWork.RollbackAsync(ct);
+                return Result<TransferResponse>.Failure("Cannot transfer to the same wallet.");
+            }
+
+            // STEP 4 — build domain objects
+            var currency = Currency.From(command.Currency);
+            var money    = Money.Of(command.Amount, currency);
+
+            // STEP 5 — record intent as PENDING
+            var transaction = Transaction.Create(
+                idempotencyKey   : command.IdempotencyKey,
+                senderWalletId   : senderWallet.Id,
+                receiverWalletId : receiverWallet.Id,
+                amount           : money.Value,
+                currency         : currency.Code,
+                type             : TransactionType.Transfer,
+                description      : command.Description
+            );
+
+            await _transactionRepo.AddAsync(transaction, ct);
+
+            // STEP 6 — mutate domain objects
+            senderWallet.Debit(money);
+            receiverWallet.Credit(money);
 
             transaction.MarkSuccess();
 
-            _walletRepo.Update(lockedSender);
-            _walletRepo.Update(lockedReceiver);
+            _walletRepo.Update(senderWallet);
+            _walletRepo.Update(receiverWallet);
             _transactionRepo.Update(transaction);
 
             await _unitOfWork.CommitAsync(ct);
@@ -121,19 +130,11 @@ public class TransferCommandHandler
         catch (DomainException ex)
         {
             await _unitOfWork.RollbackAsync(ct);
-            transaction.MarkFailed(ex.Message);
-            _transactionRepo.Update(transaction);
-            await _unitOfWork.SaveChangesAsync(ct);
-
             return Result<TransferResponse>.Failure(ex.Message);
         }
         catch
         {
             await _unitOfWork.RollbackAsync(ct);
-            transaction.MarkFailed("Unexpected system error.");
-            _transactionRepo.Update(transaction);
-            await _unitOfWork.SaveChangesAsync(ct);
-
             throw;
         }
     }

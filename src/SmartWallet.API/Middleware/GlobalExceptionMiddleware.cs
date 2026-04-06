@@ -31,7 +31,7 @@ public class GlobalExceptionMiddleware
 
             var response = new
             {
-                error         = "An unexpected error occurred.",
+                error         = ex.Message,
                 correlationId = context.TraceIdentifier
             };
 

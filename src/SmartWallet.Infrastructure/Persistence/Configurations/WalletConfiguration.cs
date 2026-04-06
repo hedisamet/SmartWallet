@@ -43,9 +43,6 @@ public class WalletConfiguration : IEntityTypeConfiguration<Wallet>
             .IsUnique()
             .HasDatabaseName("ix_wallets_user_id");
 
-        // Optimistic concurrency — second line of defense after FOR UPDATE
-        builder.Property<byte[]>("RowVersion")
-            .IsRowVersion()
-            .HasColumnName("row_version");
+        
     }
 }

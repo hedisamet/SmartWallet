@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartWallet.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02f3d69f3ea326022689bc623c94f82d6f06c86c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0c6487dda1ddc3182497aaa12eb3465dbff66ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartWallet.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartWallet.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
