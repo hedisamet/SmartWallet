@@ -32,4 +32,25 @@ public class TransactionRepository : ITransactionRepository
         if (entry.State == Microsoft.EntityFrameworkCore.EntityState.Detached)
             _context.Transactions.Update(transaction);
     }
+
+    public async Task<IEnumerable<Transaction>> GetAllAsync(
+    int page, int pageSize, string? status, CancellationToken ct)
+    {
+        var query = _context.Transactions.AsQueryable();
+
+        if (!string.IsNullOrWhiteSpace(status))
+            query = query.Where(t => t.Status == Enum.Parse<TransactionStatus>(status, true));
+
+        return await query
+            .OrderByDescending(t => t.CreatedAt)
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync(ct);
+    }
+
+    public async Task<IEnumerable<Transaction>> GetRecentAsync(DateTime since, CancellationToken ct)
+        => await _context.Transactions
+            .Where(t => t.CreatedAt >= since)
+            .OrderBy(t => t.CreatedAt)
+            .ToListAsync(ct);
 }

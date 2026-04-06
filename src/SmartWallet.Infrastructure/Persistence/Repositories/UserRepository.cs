@@ -22,4 +22,11 @@ public class UserRepository : IUserRepository
 
     public bool ExistsByEmail(string email)
         => _context.Users.Any(u => u.Email == email.ToLowerInvariant().Trim());
+    
+    public async Task<IEnumerable<User>> GetAllAsync(int page, int pageSize, CancellationToken ct)
+    => await _context.Users
+        .OrderByDescending(u => u.CreatedAt)
+        .Skip((page - 1) * pageSize)
+        .Take(pageSize)
+        .ToListAsync(ct);
 }
