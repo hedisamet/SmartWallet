@@ -17,16 +17,16 @@ public class UserRepository : IUserRepository
     public async Task<User?> GetByIdAsync(Guid id, CancellationToken ct)
         => await _context.Users.FindAsync(new object[] { id }, ct);
 
+    public async Task<IEnumerable<User>> GetAllAsync(int page, int pageSize, CancellationToken ct)
+        => await _context.Users
+            .OrderBy(u => u.CreatedAt)
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync(ct);
+
     public async Task AddAsync(User user, CancellationToken ct)
         => await _context.Users.AddAsync(user, ct);
 
     public bool ExistsByEmail(string email)
         => _context.Users.Any(u => u.Email == email.ToLowerInvariant().Trim());
-    
-    public async Task<IEnumerable<User>> GetAllAsync(int page, int pageSize, CancellationToken ct)
-    => await _context.Users
-        .OrderByDescending(u => u.CreatedAt)
-        .Skip((page - 1) * pageSize)
-        .Take(pageSize)
-        .ToListAsync(ct);
 }

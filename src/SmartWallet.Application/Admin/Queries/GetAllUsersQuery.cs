@@ -4,19 +4,18 @@ using SmartWallet.Application.Interfaces;
 
 namespace SmartWallet.Application.Admin.Queries;
 
-public record GetAllUsersQuery(
-    int Page     = 1,
-    int PageSize = 20
-) : IRequest<Result<List<UserSummary>>>;
+public record GetAllUsersQuery(int Page = 1, int PageSize = 20)
+    : IRequest<Result<List<UserSummary>>>;
 
 public record UserSummary(
-    Guid    UserId,
-    string  Email,
-    string  FullName,
-    string  Role,
-    bool    IsActive,
-    decimal Balance,
-    bool    WalletLocked,
+    Guid     UserId,
+    string   Email,
+    string   FullName,
+    string   Role,
+    bool     IsActive,
+    Guid     WalletId,
+    decimal  Balance,
+    bool     IsWalletLocked,
     DateTime CreatedAt
 );
 
@@ -51,6 +50,7 @@ public class GetAllUsersQueryHandler
                 user.FullName,
                 user.Role,
                 user.IsActive,
+                wallet?.Id ?? Guid.Empty,
                 wallet?.Balance ?? 0m,
                 wallet?.IsLocked ?? false,
                 user.CreatedAt

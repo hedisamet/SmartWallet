@@ -9,7 +9,7 @@ public class User : AggregateRoot
     public string   Email        { get; private set; } = null!;
     public string   PasswordHash { get; private set; } = null!;
     public string   FullName     { get; private set; } = null!;
-    public string   Role         { get; private set; } = null!;
+    public string Role { get; internal set; } = null!;
     public bool     IsActive     { get; private set; }
     public DateTime CreatedAt    { get; private set; }
 
@@ -33,5 +33,11 @@ public class User : AggregateRoot
             IsActive     = true,
             CreatedAt    = DateTime.UtcNow,
         };
+    }
+    public static User CreateAdmin(string email, string passwordHash, string fullName)
+    {
+        var user = Create(email, passwordHash, fullName);
+        user.Role = "Admin";
+        return user;
     }
 }

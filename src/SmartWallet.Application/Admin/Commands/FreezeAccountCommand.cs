@@ -12,21 +12,24 @@ public record FreezeAccountCommand(
 public record FreezeAccountResponse(
     Guid   UserId,
     Guid   WalletId,
-    bool   IsLocked,
-    string Reason
+    string Reason,
+    DateTime FrozenAt
 );
 
 public class FreezeAccountCommandHandler
     : IRequestHandler<FreezeAccountCommand, Result<FreezeAccountResponse>>
 {
     private readonly IWalletRepository _walletRepo;
+    private readonly IUserRepository   _userRepo;
     private readonly IUnitOfWork       _unitOfWork;
 
     public FreezeAccountCommandHandler(
         IWalletRepository walletRepo,
+        IUserRepository   userRepo,
         IUnitOfWork       unitOfWork)
     {
         _walletRepo = walletRepo;
+        _userRepo   = userRepo;
         _unitOfWork = unitOfWork;
     }
 
@@ -34,20 +37,26 @@ public class FreezeAccountCommandHandler
         FreezeAccountCommand command,
         CancellationToken    ct)
     {
-        var wallet = await _walletRepo.GetByUserIdAsync(command.TargetUserId, ct);
+        var user = await _userRepo.GetByIdAsync(command.TargetUserId, ct);
+        if (user is null)
+            return Result<FreezeAccountResponse>.Failure("User not found.");
 
+        var wallet = await _walletRepo.GetByUserIdAsync(command.TargetUserId, ct);
         if (wallet is null)
             return Result<FreezeAccountResponse>.Failure("Wallet not found.");
 
+        if (wallet.IsLocked)
+            return Result<FreezeAccountResponse>.Failure("Account is already frozen.");
+
         wallet.Lock(command.Reason);
-        _walletRepo.Update(wallet);
+
         await _unitOfWork.SaveChangesAsync(ct);
 
         return Result<FreezeAccountResponse>.Success(new FreezeAccountResponse(
-            command.TargetUserId,
+            user.Id,
             wallet.Id,
-            wallet.IsLocked,
-            command.Reason
+            command.Reason,
+            DateTime.UtcNow
         ));
     }
 }
