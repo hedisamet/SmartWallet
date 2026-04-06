@@ -10,6 +10,7 @@ using SmartWallet.Infrastructure.Persistence;
 using SmartWallet.Infrastructure.Persistence.Repositories;
 using SmartWallet.Infrastructure.Auth;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // ----------------------------------------------------------
@@ -120,5 +121,11 @@ app.UseSwaggerUI();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+}
 
 app.Run();
