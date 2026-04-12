@@ -52,8 +52,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build Docker image
+      - name: Build Backend Image
         run: docker build -f backend/src/SmartWallet.API/Dockerfile -t smartwallet-api backend/
 
-      - name: Verify image exists
-        run: docker images smartwallet-api
+      - name: Build Frontend Image
+        run: docker build -f frontend/Dockerfile -t smartwallet-web frontend/
+
+      - name: Verify Images
+        run: |
+          docker images smartwallet-api
+          docker images smartwallet-web
