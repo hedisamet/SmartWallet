@@ -35,7 +35,6 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore
-      - name: Restore
         run: dotnet restore backend/SmartWallet.sln
 
       - name: Build
