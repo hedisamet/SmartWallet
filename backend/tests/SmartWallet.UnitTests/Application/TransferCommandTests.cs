@@ -11,11 +11,15 @@ public class TransferCommandTests
     private readonly Mock<IWalletRepository>      _walletRepo      = new();
     private readonly Mock<ITransactionRepository> _transactionRepo = new();
     private readonly Mock<IUnitOfWork>            _unitOfWork      = new();
+    private readonly Mock<INotificationService>   _notificationService = new();
+    private readonly Mock<IUserRepository>        _userRepo        = new();
 
     private TransferCommandHandler CreateHandler() => new(
         _walletRepo.Object,
         _transactionRepo.Object,
-        _unitOfWork.Object);
+        _notificationService.Object,
+        _unitOfWork.Object,
+        _userRepo.Object);
 
     private static Wallet CreateWallet(Guid userId, decimal balance = 0)
     {
