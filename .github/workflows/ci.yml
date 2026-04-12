@@ -35,13 +35,14 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore
-        run: dotnet restore
+      - name: Restore
+        run: dotnet restore backend/SmartWallet.sln
 
       - name: Build
-        run: dotnet build --no-restore -c Release
+        run: dotnet build backend/SmartWallet.sln --no-restore -c Release
 
       - name: Run unit tests
-        run: dotnet test tests/SmartWallet.UnitTests --no-build -c Release
+        run: dotnet test backend/tests/SmartWallet.UnitTests --no-build -c Release
 
   docker-build:
     needs: build-and-test
@@ -53,7 +54,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Docker image
-        run: docker build -f src/SmartWallet.API/Dockerfile -t smartwallet-api .
+        run: docker build -f backend/src/SmartWallet.API/Dockerfile -t smartwallet-api backend/
 
       - name: Verify image exists
         run: docker images smartwallet-api
