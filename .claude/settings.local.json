@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(npx ng:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet sln:*)"
+    ]
+  }
+}

@@ -17,4 +17,7 @@ public record Money
     }
 
     public static Money Of(decimal value, Currency currency) => new(value, currency);
+
+    public override string ToString() =>
+        $"{Value.ToString("0.##", System.Globalization.CultureInfo.InvariantCulture)} {Currency.Code}";
 }
